@@ -594,7 +594,9 @@ require('lazy').setup({
       --  See `:help lsp-config` for information about keys and how to configure
       local servers = {
         rust_analyzer = {},
-        
+        ruff = {},
+	basedpyright = {},
+
 	-- clangd = {},
         -- gopls = {},
         -- pyright = {},
